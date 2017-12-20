@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7FBDEF9E0895480C4636FED /* Pods_Snacktacular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416A41D82746616715B5FD31 /* Pods_Snacktacular.framework */; };
+		C99AE3161FD9E9F400A5480E /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99AE3151FD9E9F400A5480E /* PlaceListViewController.swift */; };
+		C99AE3181FD9EA8000A5480E /* PlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99AE3171FD9EA8000A5480E /* PlaceData.swift */; };
+		C9E521001FD9F07200839DD4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E520FF1FD9F07200839DD4 /* DetailViewController.swift */; };
+		C9E521021FD9F59800839DD4 /* UINavigationController+preferredStatusBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E521011FD9F59800839DD4 /* UINavigationController+preferredStatusBarStyle.swift */; };
 		C9F703431FD63F0C00F4699E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F703421FD63F0C00F4699E /* AppDelegate.swift */; };
-		C9F703451FD63F0C00F4699E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F703441FD63F0C00F4699E /* ViewController.swift */; };
 		C9F703481FD63F0C00F4699E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F703461FD63F0C00F4699E /* Main.storyboard */; };
 		C9F7034A1FD63F0C00F4699E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F703491FD63F0C00F4699E /* Assets.xcassets */; };
 		C9F7034D1FD63F0C00F4699E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F7034B1FD63F0C00F4699E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1966F7931FD9C48962EFA845 /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
+		242D04796556B94A4CA32058 /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
+		416A41D82746616715B5FD31 /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99AE3151FD9E9F400A5480E /* PlaceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewController.swift; sourceTree = "<group>"; };
+		C99AE3171FD9EA8000A5480E /* PlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceData.swift; sourceTree = "<group>"; };
+		C9E520FF1FD9F07200839DD4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C9E521011FD9F59800839DD4 /* UINavigationController+preferredStatusBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+preferredStatusBarStyle.swift"; sourceTree = "<group>"; };
 		C9F7033F1FD63F0C00F4699E /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F703421FD63F0C00F4699E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9F703441FD63F0C00F4699E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9F703471FD63F0C00F4699E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9F703491FD63F0C00F4699E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F7034C1FD63F0C00F4699E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FBDEF9E0895480C4636FED /* Pods_Snacktacular.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CEAF92F2789899007E3632F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416A41D82746616715B5FD31 /* Pods_Snacktacular.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9F703361FD63F0C00F4699E = {
 			isa = PBXGroup;
 			children = (
 				C9F703411FD63F0C00F4699E /* Snacktacular */,
 				C9F703401FD63F0C00F4699E /* Products */,
+				FEAE1500E476DD2A56245E88 /* Pods */,
+				2CEAF92F2789899007E3632F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,25 @@
 			isa = PBXGroup;
 			children = (
 				C9F703421FD63F0C00F4699E /* AppDelegate.swift */,
-				C9F703441FD63F0C00F4699E /* ViewController.swift */,
+				C99AE3171FD9EA8000A5480E /* PlaceData.swift */,
+				C99AE3151FD9E9F400A5480E /* PlaceListViewController.swift */,
+				C9E520FF1FD9F07200839DD4 /* DetailViewController.swift */,
 				C9F703461FD63F0C00F4699E /* Main.storyboard */,
+				C9E521011FD9F59800839DD4 /* UINavigationController+preferredStatusBarStyle.swift */,
 				C9F703491FD63F0C00F4699E /* Assets.xcassets */,
 				C9F7034B1FD63F0C00F4699E /* LaunchScreen.storyboard */,
 				C9F7034E1FD63F0C00F4699E /* Info.plist */,
 			);
 			path = Snacktacular;
+			sourceTree = "<group>";
+		};
+		FEAE1500E476DD2A56245E88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1966F7931FD9C48962EFA845 /* Pods-Snacktacular.debug.xcconfig */,
+				242D04796556B94A4CA32058 /* Pods-Snacktacular.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9F703511FD63F0C00F4699E /* Build configuration list for PBXNativeTarget "Snacktacular" */;
 			buildPhases = (
+				0A834C65E1574DE7B39B4E6A /* [CP] Check Pods Manifest.lock */,
 				C9F7033B1FD63F0C00F4699E /* Sources */,
 				C9F7033C1FD63F0C00F4699E /* Frameworks */,
 				C9F7033D1FD63F0C00F4699E /* Resources */,
+				6329C8686DD4B644FE3B531B /* [CP] Embed Pods Frameworks */,
+				6D7342E527CD824BC040D7BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +167,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A834C65E1574DE7B39B4E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snacktacular-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6329C8686DD4B644FE3B531B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7342E527CD824BC040D7BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C9F7033B1FD63F0C00F4699E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F703451FD63F0C00F4699E /* ViewController.swift in Sources */,
+				C99AE3161FD9E9F400A5480E /* PlaceListViewController.swift in Sources */,
+				C99AE3181FD9EA8000A5480E /* PlaceData.swift in Sources */,
 				C9F703431FD63F0C00F4699E /* AppDelegate.swift in Sources */,
+				C9E521021FD9F59800839DD4 /* UINavigationController+preferredStatusBarStyle.swift in Sources */,
+				C9E521001FD9F07200839DD4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +393,7 @@
 		};
 		C9F703521FD63F0C00F4699E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1966F7931FD9C48962EFA845 /* Pods-Snacktacular.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +409,7 @@
 		};
 		C9F703531FD63F0C00F4699E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242D04796556B94A4CA32058 /* Pods-Snacktacular.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
