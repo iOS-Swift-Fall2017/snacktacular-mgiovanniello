@@ -15,6 +15,7 @@ class PlaceData: NSObject, MKAnnotation {
     var address: String
     var postingUserID: String
     var coordinate: CLLocationCoordinate2D
+    var placeDocumentID: String
     
     var title: String? {
         return placeName
@@ -24,10 +25,11 @@ class PlaceData: NSObject, MKAnnotation {
         return address
     }
     
-    init(placeName: String, address: String, coordinate: CLLocationCoordinate2D, postingUserID: String) {
+    init(placeName: String, address: String, coordinate: CLLocationCoordinate2D, postingUserID: String, placeDocumentID: String) {
         self.placeName = placeName
         self.address = address
         self.coordinate = coordinate
         self.postingUserID = postingUserID
+        self.placeDocumentID = placeDocumentID
     }
 }

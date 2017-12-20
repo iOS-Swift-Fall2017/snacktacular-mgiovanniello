@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B7FBDEF9E0895480C4636FED /* Pods_Snacktacular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416A41D82746616715B5FD31 /* Pods_Snacktacular.framework */; };
+		C94AECF81FEAE647002E9D20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C94AECF71FEAE647002E9D20 /* GoogleService-Info.plist */; };
 		C99AE3161FD9E9F400A5480E /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99AE3151FD9E9F400A5480E /* PlaceListViewController.swift */; };
 		C99AE3181FD9EA8000A5480E /* PlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99AE3171FD9EA8000A5480E /* PlaceData.swift */; };
 		C9E521001FD9F07200839DD4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E520FF1FD9F07200839DD4 /* DetailViewController.swift */; };
@@ -22,6 +23,7 @@
 		1966F7931FD9C48962EFA845 /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
 		242D04796556B94A4CA32058 /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
 		416A41D82746616715B5FD31 /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94AECF71FEAE647002E9D20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C99AE3151FD9E9F400A5480E /* PlaceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewController.swift; sourceTree = "<group>"; };
 		C99AE3171FD9EA8000A5480E /* PlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceData.swift; sourceTree = "<group>"; };
 		C9E520FF1FD9F07200839DD4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -79,11 +81,12 @@
 				C99AE3171FD9EA8000A5480E /* PlaceData.swift */,
 				C99AE3151FD9E9F400A5480E /* PlaceListViewController.swift */,
 				C9E520FF1FD9F07200839DD4 /* DetailViewController.swift */,
-				C9F703461FD63F0C00F4699E /* Main.storyboard */,
 				C9E521011FD9F59800839DD4 /* UINavigationController+preferredStatusBarStyle.swift */,
+				C9F703461FD63F0C00F4699E /* Main.storyboard */,
 				C9F703491FD63F0C00F4699E /* Assets.xcassets */,
 				C9F7034B1FD63F0C00F4699E /* LaunchScreen.storyboard */,
 				C9F7034E1FD63F0C00F4699E /* Info.plist */,
+				C94AECF71FEAE647002E9D20 /* GoogleService-Info.plist */,
 			);
 			path = Snacktacular;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F7034D1FD63F0C00F4699E /* LaunchScreen.storyboard in Resources */,
+				C94AECF81FEAE647002E9D20 /* GoogleService-Info.plist in Resources */,
 				C9F7034A1FD63F0C00F4699E /* Assets.xcassets in Resources */,
 				C9F703481FD63F0C00F4699E /* Main.storyboard in Resources */,
 			);
@@ -231,8 +235,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",

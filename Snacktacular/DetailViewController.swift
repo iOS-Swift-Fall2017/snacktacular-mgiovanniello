@@ -29,6 +29,12 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // these three lines will dismiss the keyboard when one taps outside of a textField
+        let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:)))
+        tap.cancelsTouchesInView = false
+        self.view.addGestureRecognizer(tap)
+        
         mapView.delegate = self
         if let placeData = placeData {
             centerMap(mapLocation: placeData.coordinate, regionRadius: regionRadius)
@@ -37,10 +43,9 @@ class DetailViewController: UIViewController {
             mapView.selectAnnotation(placeData, animated: true)
             updateUserInterface()
         } else {
-            placeData = PlaceData(placeName: "", address: "", coordinate: CLLocationCoordinate2D(), postingUserID: "")
+            placeData = PlaceData(placeName: "", address: "", coordinate: CLLocationCoordinate2D(), postingUserID: "", placeDocumentID: "")
             getLocation()
         }
-        placeNameField.becomeFirstResponder()
     }
     
     func updateUserInterface() {
